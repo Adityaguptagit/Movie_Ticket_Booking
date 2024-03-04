@@ -7,7 +7,7 @@ const ShowBookingDetails = ({ booking, setBooking }) => {
 
   const getBookingDetails = async () => {
     try {
-      const data = await fetch("http://localhost:8080/api/booking");
+      const data = await fetch("https://movie-ticket-booking-jrpi.onrender.com/api/booking");
       const jsonData = await data.json();
 
       const len = jsonData.length;

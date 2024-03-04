@@ -42,7 +42,7 @@ function App() {
     }
 
     const booking = { movie, timeSlot, seats };
-    const res = await fetch("http://localhost:8080/api/booking", {
+    const res = await fetch("https://movie-ticket-booking-jrpi.onrender.com/api/booking", {
       method: "POST",
       mode: "cors", // no-cors, *cors, same-origin
       cache: "no-cache", // default, no-cache, reload, force-cache, only-if-cached
