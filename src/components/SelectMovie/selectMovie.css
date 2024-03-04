@@ -1,0 +1,35 @@
+.mo-1 {
+  cursor: pointer;
+  background-color: #bfd2e3;
+}
+.mo-2 {
+  cursor: pointer;
+  background-color: #bfd2e3;
+}
+.mo-3 {
+  cursor: pointer;
+  background-color: #bfd2e3;
+}
+.mo-4 {
+  cursor: pointer;
+  background-color: #bfd2e3;
+}
+.m-main {
+  background-color: #f0f4f7;
+}
+.mo-1:focus {
+  border: 2px solid black;
+  background-color: #668db0;
+}
+.mo-2:focus {
+  border: 2px solid black;
+  background-color: #668db0;
+}
+.mo-3:focus {
+  border: 2px solid black;
+  background-color: #668db0;
+}
+.mo-4:focus {
+  border: 2px solid black;
+  background-color: #668db0;
+}
